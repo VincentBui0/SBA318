@@ -31,6 +31,7 @@ export const getUser = (req, res) => {
     res.send(req.params.id)
 };
 
+
 // Controller function to handle DELETE request for deleting a user by ID
 export const deleteUser = (req, res) => { 
     // Logging the deletion of a user with the specified ID
